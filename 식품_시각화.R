@@ -1,12 +1,7 @@
-# 필요한 라이브러리를 불러옵니다.
 library(shiny)
 library(dplyr)
 library(openxlsx)
 library(DT)
-
-
-# 전역 변수로 filtered_data를 정의합니다.
-filtered_data <- NULL
 
 # UI 부분을 정의합니다.
 ui <- fluidPage(
