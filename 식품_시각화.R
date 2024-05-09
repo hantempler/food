@@ -4,8 +4,6 @@ library(dplyr)
 library(openxlsx)
 library(DT)
 
-# 식품_1 데이터를 불러옵니다. 파일 경로는 실제 데이터 파일의 경로로 바꿔주세요.
-data <- 식품_1
 
 # 전역 변수로 filtered_data를 정의합니다.
 filtered_data <- NULL
